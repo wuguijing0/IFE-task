@@ -3,8 +3,130 @@
 <head>
 	<meta charset="utf-8">
 	<title>小薇学院任务六</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+	html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+	.wrap{width: 892px;height: 1368px;margin: 0 auto;}
+
+.head{height: 61px;border-bottom: 2px solid #938e8c;}
+.head_1{width: 110px;height: 61px;background: #d55d5c;float:left;color: #fff;font-size: 12px;font-family: "黑体";line-height: 104px;text-indent: 6px;}
+.head p{font-size: 12px;color: #d45d5c;float: right;margin-top: 45px;}
+
+.main{clear:both;margin-top: 34px;}
+
+.top img{float:left;width: 641px;height: 301px; }
+.right{width: 203px;height: 301px;float: right;border-top: 2px solid #cc8091;font-family: "微软雅黑";}
+.right h1{font-size: 24px;color: #000;text-decoration: underline;font-weight: normal;line-height: 30px;font-variant: small-caps;}
+.right p{font-size: 12px;color: #676767;font-family: "楷体";line-height: 10px;font-style:italic;}
+.right h2{font-style:italic;font-size:116px;color: #75b86b;line-height: 165px;}
+.num{font-size: 55px;line-height: 55px;color: #cc8091;}
+.fo{font-size: 21px;color: #cc8091;display: inline-block;line-height: 12px;}
+.fo span{font-size: 12px;color: #231815;opacity: 0.4;}
+
+.center{clear: both;width: 641px;font-family: "微软雅黑";}
+.cen{float: left;color: #767777;margin-top: 40px;}
+.cen p{font-family: "宋体";font-size: 12px;line-height: 16px;padding-top: 10px;}
+.center_1{width: 228px;height: 168px;margin-right: 30px;}
+.center_2{width: 206px;height: 168px;margin-right: 30px;}
+.center_3{width: 132px;height: 168px;}
+.cen h2{font-size: 16px;text-decoration: underline;line-height: 8px;}
+.center_1 h2{color: #418c59;}
+.center_2 h2{color: #d2994f;}
+.center_3 h2{color: #cc7680;}
+.center_3 p{line-height: 21px;}
+.center_3 h3{font-size: 12px;line-height: 21px;color: #231815;opacity: 0.7;padding-top: 18px;}
+.center_3 span{color: #cd4a48;}
+
+.bottom{clear: both;margin-top: 75px;font-family: "黑体";}
+
+.bottom_1{width: 415px;float: left;margin-top: 75px;}
+.bottom_h{color: #11456b;font-weight: bold;border-bottom: 2px solid #11456b;}
+.bottom_h span{float: left;font-size: 72px;color: #f5e327;font-style: italic;line-height: 39.39px;}
+.bottom_1 h1{font-size: 42px;}
+.bottom_1 h2{font-size: 33px;}
+.bottom_p{margin-top: 20px;}
+.bottom_p p{font-size: 12px;color: #767777;font-family: "宋体";line-height: 16px;opacity: 0.7;}
+.bottom_p p:first-letter{margin:0 5px 10px 0;float: left;font-size: 70px;color: #f5e327;font-family: "微软雅黑";line-height: 40px;}
+.bottom_1 img{float: right;}
+
+.bottom_r{width: 458px;margin: 75px 0 0 18px;float: right;}
+.bottom_2{position: relative;}
+.bottom_2 img{width: 458px;height: 275px;opacity: 0.7;}
+.bottom_2 .zhe{position: absolute;width: 458px;height: 61px;background-color: rgba(0,0,0,0.4);left: 0;bottom: 0;}
+.bottom_2 .zhe div{color: #fff;font-size: 26px;font-family: "微软雅黑";border-left: 3px solid #72b16a;height: 44px;transform:translate(38px,8px);line-height: 45px;padding-left: 12px;}
+.bottom_2 span{font-size: 12px;color: #72b16a;font-style: italic;}
+.bottom_3{width: 459px;height: 318px;background: #eeedd6;margin: 30px 0 40px 0;}
+.bottom_3 .wenzi{padding: 20px 18px 0 18px;}
+.bottom_3 .qian{color: #5a5b5b;font-size: 16px;line-height: 20px;}
+.bottom_3 .qian span{font-size: 12px;}
+.sanjiao{width: 0;height: 0;border-width: 0 5px 5px 5px;border-style: solid;border-color: transparent transparent #10446b transparent;display: inline-block;}
+.bottom_3_1{position:relative;width: 260px;height: 160px;background: #d45d5c;float: left;margin-top: 32px;color: #fff;font-family: "黑体";}
+.bottom_3_1 .hr{width: 2px;height: 86px;background: #fff;position: absolute;top:39px;left: 78px;}
+.bottom_3_1 .one{height: 86px;position: absolute;top:47px;left: 88px;}
+.bottom_3_1 span{font-size: 110px;font-family: "微软雅黑";position: absolute;top:25px;left: 10px;}
+.bottom_3_1 h2{font-size: 21px;font-style: italic;font-weight: normal;}
+.bottom_3_1 p{font-size: 12px;}
+.bottom_3_2{font-family: "黑体";width: 164px;float: right;margin: 40px 18px 0 0;}
+.bottom_3_2 p{color: #5a5b5b;font-size: 14px;line-height: 16px;font-style: italic;}
+.bottom_3_2 span{font-size: 72px;color: #d45d5c;font-style: normal;}
+
+.foot{clear: both;height:60px;border-top: 1px solid #938e8c;text-align: right;color: #d45d5c;font-size: 12px;font-family: "黑体";padding-top: 2px;}
+	
+	</style>
 </head>
 <body>
 	<div class="wrap">
