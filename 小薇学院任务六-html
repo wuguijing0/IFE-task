@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>小薇学院任务六</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="head">
+			<div class="head_1">
+				ife.baidu.com
+			</div>
+			<p>2016.03</p>
+		</div>
+		<div class="main">
+			<div class="top">
+				
+				<img src="images/img01.jpg">
+				
+				<div class="right">
+					<h1>About<br/>Technologe</h1>
+					<p>About technologe about technologe  about technologe</p>
+					<h2>700</h2>
+					<span class="num">3.2</span>
+					<div class="fo">css<br/><span>cssssccsccscssc</span></div>
+					
+				</div>
+			</div>
+			<div class="center">
+				<div class="cen center_1">
+					<h2>What</h2>
+					<p>端前端前端端前端前端前端前端前端前端前
+						端前端前端前端前端前端前端前端端前端前
+						端端前端前端前端前端前端前端前端前端前
+						端前端前端前端前端前端端前端前端端前端
+						前端前端前端前端前端前端前端前端前端前
+						端前端前端前端端前端前端端前端前端前端
+						前端前端前端前端前端前端前端前端前端前
+						端前端端前端前端前端前端前端前端前端前
+						端前端端前端前端</p>
+				</div>
+				<div class="cen center_2">
+					<h2>When</h2>
+					<p>端前端前端端前端前端前端前端前端前
+						端前端前端前端前端前端前端前端前端
+						端前端前端端前端前端前端前端前端前
+						端前端前端前端前端前端前端前端前端
+						端前端前端端前端前端前端前端前端前
+						端前端前端前端前端前端前端前端前端
+						端前端前端端前端前端前端前端前端前
+						端前端前端前端前端前端前端前端前端
+						端前端前端</p>
+				</div>
+				<div class="cen center_3">
+					<h2>How</h2>
+					<p>前端前端端前端前端<br/>前端前端前端前端前端前<br/>端前端前端端前</p>
+					<h3>What-------- <span>40%</span><br/>What-------- <span>30%</span><br/>What-------- <span>30%</span></h3>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="bottom_1">
+					<div class="bottom_h">
+					<h1><span>THE</span>&nbsp;TECHNOLOGE OF FRONT</h1>
+					<h2>前端技术领域</h2>
+					</div>
+					<div class="bottom_p">
+					<img src="images/img04.jpg">
+					<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前。<br/>&nbsp;&nbsp;端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端<br/>&nbsp;&nbsp;前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端</p>
+					</div>
+				</div>
+				<div class="bottom_r">
+				<div class="bottom_2">
+					<img src="images/img05.jpg">
+					<div class="zhe"><div>前端技术&nbsp;<span>前端技术前端技术</span></div></div>
+				</div>
+				<div class="bottom_3">
+					<div class="wenzi"><div class="sanjiao"></div><span class="qian">前端前端前端前端前端前端.......................<span>前端</span></span></div>
+					<div class="wenzi"><div class="sanjiao"></div><span class="qian">前端前端前端前端...............................<span>前端前</span></span></div>
+					<div class="wenzi"><div class="sanjiao"></div><span class="qian">前端前端前端前端前端前端前端 .................<span>前端</span></span></div>
+					<div class="bottom_3_1">
+						<span>0</span>
+						<div class="hr"></div>
+						<div class="one">
+						<h2>ONE TWO<br/>THREE FORE FIVE</h2>
+						<p>hello world hello world hello world</p></div>
+					</div>
+					<div class="bottom_3_2">
+						<p><span>“</span>world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world<span>”</span></p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			ife.baidu.com
+		</div>
+	</div>
+ </script>
+</body>
+</html>
