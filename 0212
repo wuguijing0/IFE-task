@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<link  rel="stylesheet" type="text/css" href="../Work/reset.css"/>
+<style>
+	a{text-decoration:none;}
+	ul li{list-style:none;float:left;}
+	.menu{width:298px;height:98px;border:1px solid #eee;overflow:hidden;margin:20px;}
+	.con{height:27px;background:#f7f7f7;position:relative;}
+	.con ul{position:absolute;width:301px;left:-1px;}
+	.con ul li{float:left;width:58px;text-align:center;height:26px;line-height:26px;border-bottom:1px solid #eee;overflow:hidden;padding:0 1px;}
+	.con ul li a{color:#333333;}
+	.divstyle{display:none;clear:both;}
+	.select{background:#fff;border-left:1px solid #eee;border-right:1px solid #eee;border-bottom-color:#fff !important;padding:0 !important;}
+	.select a{color:#FF6600 !important;}
+</style>
+<script type="text/javascript">
+	window.onload=function(){
+		var timer=null;
+		var lis=document.getElementById('con').getElementsByTagName('li');
+		var divs=document.getElementById('content').getElementsByTagName('div');
+		if(lis.length!=divs.length){
+			return;
+		}
+		for(var i=0;i<lis.length;i++){
+			lis[i].id=i;
+			lis[i].onmouseover=function(){
+				if(timer){
+					clearTimeout(timer);
+					timer=null;
+				}
+				timer=setTimeout(function(){
+					for(var i=0;i<lis.length;i++){
+						lis[i].className="";
+					}
+					this.className="select";
+					for(var i=0;i<divs.length;i++){
+						divs[i].style.display="none";
+					}
+					divs[this.id].style.display="block";
+				},500);
+			}
+		}
+		
+	}
+</script>
+</head>
+
+<body>
+	<div class="menu">
+		<div class="con" id="con">
+			<ul>
+				<li class="select"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+			</ul>
+		</div>
+		<div class="content" id="content">
+			<div class="divstyle" style="display:block;">
+				<p>11111111111</p>
+				<p>11111111111</p>
+				<p>11111111111</p>
+				<p>11111111111</p>
+			</div>
+			<div class="divstyle">
+				<p>22222222222</p>
+				<p>22222222222</p>
+				<p>22222222222</p>
+				<p>22222222222</p>
+			</div>
+			<div class="divstyle">
+				<p>33333333333</p>
+				<p>33333333333</p>
+				<p>33333333333</p>
+				<p>33333333333</p>
+			</div>
+			<div class="divstyle">
+				<p>44444444444</p>
+				<p>44444444444</p>
+				<p>44444444444</p>
+				<p>44444444444</p>
+			</div>
+			<div class="divstyle">
+				<p>55555555555</p>
+				<p>55555555555</p>
+				<p>55555555555</p>
+				<p>55555555555</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
